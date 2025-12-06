@@ -203,7 +203,7 @@ button {
     }
 }
 
-/* Footer always at the bottom, not fixed */
+/* Footer */
 .site-footer {
     width: 100vw;
     background: rgba(0,0,0,0.5);
