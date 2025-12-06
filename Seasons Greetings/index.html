@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Wish App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+
+<body>
+    <div class="card" id="main-card">
+        <!-- Main Greetings Section-->
+        <section id="greetings-section" class="slide-section">
+            <h1>Season's Greetings!</h1>
+            <button id="main-greeting">Send Your Christmas Greetings</button>
+        </section>
+
+        <!--Name Input Section-->
+        <section id="name-input-section" style="display:none;">
+            <label for="nameInput">Who do you want to wish?</label><br>
+            <input type="text" id="nameInput" placeholder="Enter a name">
+            <button id="CreateWishBtn">Create Wish</button>
+        </section>
+
+        <!-- Wish Display Section-->
+        <section id="wish-display-section" style="display:none;">
+            <h2>Your Christmas Wish:</h2>
+            <p id="wish-output"></p>
+            <button id="shareBtn">Share Your Wish</button>
+        </section>
+    </div>
+    <video id="bg-video" src="santa.mp4" autoplay loop muted playsinline style="position:fixed;top:0;left:0;width:100vw;height:100vh;object-fit:cover;z-index:-1;"></video>
+    <script>
+    // Remove video controls script if not needed
+    </script>
+    <footer class="site-footer">
+        &copy; 2025 Christmas Wish App. All rights reserved.
+        <a href="https://julieadul.site/" target="_blank" style="color: gold;">Julie</a>
+    </footer>
+</body>
+</html>
